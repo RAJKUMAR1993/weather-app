@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theatre</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 co-sm-6 col-md-2"></div>
+        <div class="col-12 co-sm-6 col-md-8 py-4">
+          <div class="d-flex align-items-center selectBox gap-10 w-20 py-4">
+            <label class="">Movie Names:</label>
+            <select
+              class="form-select w-50 align-items-center mr-5"
+              id="movies"
+            >
+              <option selected>Select Movie Name</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <button
+              class="btn btn-primary select_button"
+              type="submit"
+              id="select"
+            >
+              Submit
+            </button>
+          </div>
+          <ul class="showcase d-flex " style="list-style-type: none">
+            <li>
+              <div class="seat ">
+                <small class="text-white   ">Avaliable</small>
+              </div>
+            </li>
+            <li>
+              <div class="seat  selected" style="background-color: rgb(6, 245, 6);">
+                <small class="text-white  ">Selected</small>
+              </div>
+            </li>
+            <li>
+              <div class="seat  sold">
+                <small class="text-white ">Sold</small>
+              </div>
+            </li>
+          </ul>
+          <div class="container-fluid seats-container">
+            <div class="screen"></div>
+            <div class="row ">
+                <div class="col-1">  
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="col-1">  
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat "></div>
+                    <div class="seat sold"></div>
+                    <div class="seat "></div>
+                    <div class="seat sold"></div>
+                    <div class="seat "></div>
+                </div>
+                <div class="col-1">
+                    <div class="seat  sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat  sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat  "></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                </div>
+                <div class="col-1">
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat "></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="col-1"> 
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="col-1">  
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                </div>
+                <div class="col-1">
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                </div>
+                <div class="col-1">
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                </div>
+                <div class="col-1"> 
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                </div>
+                <div class="col-1">  
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                </div>
+                <div class="col-1">
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="col-1">
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                    <div class="seat sold"></div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <p class="text-center text-white fw-bold text">
+          You have selected: <span id="count">0</span> seats for a price of
+          Rs.<span id="total">00.00</span>
+        </p>
+        <div class="col-12 co-sm-6 col-md-2"></div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="home.js"></script>

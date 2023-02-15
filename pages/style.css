@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+.wather-titl {
+  font-weight: bold;
+  font-family: fantasy;
+  line-height: 1.5;
+}
+
+.wather-squarepeg {
+  font-family: "Dancing script", cursive;
+
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+}
+
+.marginLeft {
+  margin-left: 85px;
+}
+
+button {
+  margin: 0 10px;
+}
+.fonticon {
+  color: black;
+  height: 50px;
+}
+.sunIcon {
+  color: coral;
+}
+.ml-4 {
+  margin-left: 30px;
+  font-size: 28px;
+}
+.margintop {
+  margin-top: 63px;
+  margin-left: 54px;
+}
+.details .content {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid orangered;
+}

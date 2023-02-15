@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Weather Report</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row py-5">
+        <div class="col-12 col-6 col-sm-12 col-md-3"></div>
+        <div class="col-12 col-6 col-sm-12 col-md-6">
+          <section class="wather-app">
+            <div class="wather-card bg-dark py-4">
+              <h1 class="wather-title text-center text-white fst-italic">
+                <span class="text-warning">W</span>ebLa<span
+                  class="text-warning"
+                  >.</span
+                >
+              </h1>
+              <h5
+                class="wather-squarepeg text-center mb-2"
+                style="margin-left: 105px "
+              >
+                Weather
+              </h5>
+              <div class="d-flex marginLeft">
+                <select
+                  class="form-select w-50 gap-3 align-items-center cities"
+                  aria-label="Default select example" id="getCities" 
+                >
+                  <option selected>select state</option>
+                  
+                </select>
+                <button class="btn btn-warning btn-sm" id="submit">Submit</button>
+              </div>
+              <div class="container-fluid py-3">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <p class="text-center fw-light text-white">
+                      TODAY'S FORECAST CONDITIONS
+                    </p>
+                       <h4 class="text-warning  text-center" id="cityName"></h4>
+                    <div class="fonticon d-flex align-content-between py-2">
+                      <i
+                        class="fa-solid fa-cloud-sun fa-lg-5 fa-5x mt-4 sunIcon"
+                      ></i>
+                      <h6 class="text-center text-white fw-bold mt-3 ml-4" id="tmp">
+                        28*
+                      </h6>
+                    </div>
+                    <div class="margintop">
+                      <p class="fw-bold text-white py-4 mr-4" id="description">
+                        Mostly mix of sun and cloud, with small chance of
+                        thunderstroms in the afternoon.<span id="Humidity"
+                          class="fw-bold text-white"
+                          >Humidity at 50%</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="co-12 col-md-6">
+                   
+                      <p class="text-center fw-light text-white">
+                        TODAY'S FORECAST CONDITIONS
+                      </p>
+                       <h6 class="text-white">Today's forest conditions</h6>
+                    
+                       <div class="details">
+                       <div class="d-flex content">
+                           <h6 class="text-white" id="weekday"><br/>
+                          
+                          </h6>
+                            <span class="text-white" id="phrase">Jan 4th,2023</span>h
+                            <h5 class="text-white fw-bold" id="max-tmp">32*</h5>
+                           
+                        </div>
+                         <div class="d-flex content">
+                           <!-- <h6 class="text-white">Monday<br/>
+                          Jan 4th,2023
+                          </h6>
+                            <h1 class="text-white fw-bold">32*</h1> -->
+                           
+                        </div>
+                         <!-- <div class="d-flex content">
+                           <h6 class="text-white">Monday<br/>
+                          Jan 4th,2023
+                          </h6>
+                            <h1 class="text-white fw-bold">32*</h1>
+                           
+                        </div> -->
+                    </div>
+                     
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="col-12 col-6 col-sm-12 col-md-3">
+         
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js" ></script>
+  </body>
+</html>
